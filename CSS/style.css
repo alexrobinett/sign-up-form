@@ -1,3 +1,28 @@
-*{
-    background-color: aqua;
+@font-face {
+    font-family: Norese-bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    
+}
+
+aside{
+    background-image: url(/images/nico-iseli---iuRrZ15rk-unsplash.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+.logo-container{
+    display: flex;
+}
+
+
+span{
+    color: yellow;
+}
+
+.logo{
+    size: 10px;
 }
