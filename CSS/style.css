@@ -1,28 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
 @font-face {
-    font-family: Norese-bold;
+    font-family: Norse-bold;
     src: url(/fonts/Norse-Bold.otf);
 }
 
 body {
     display: flex;
+    margin: 0;
     
 }
 
 aside{
     background-image: url(/images/nico-iseli---iuRrZ15rk-unsplash.jpg);
-    background-size: contain;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: auto;
+    margin: 0px;
 }
 
 .logo-container{
     display: flex;
-}
-
-
-span{
-    color: yellow;
+    background-color: rgba(0, 0, 0, 0.447);
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
-    size: 10px;
+    height: 200px;
+    margin: 30px 10px 30px 10px;
 }
+.odin{
+    font-family: 'Norse-bold';
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.form-side{
+
+}
+
+.photo-credit{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    
+}
+
