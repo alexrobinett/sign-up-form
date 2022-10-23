@@ -1,5 +1,4 @@
 
-
 *{
     box-sizing: border-box;
     /* border: 2px solid red; */
@@ -22,7 +21,7 @@ aside{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 40%;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -38,18 +37,18 @@ aside{
 }
 
 .logo{
-    height: 200px;
-    margin: 30px 10px 30px 10px;
+    height: 195px;
+    margin: 20px 10px 20px 10px;
 }
 .odin{
     font-family: 'Norse-bold';
-    font-size: 120px;
+    font-size: 130px;
     color: rgb(255, 255, 255);
-    margin: 0px;
+    margin: 0px 0px 0px ;
 }
 
 .form-side{
-
+    flex: 3;
 }
 
 .photo-credit{
@@ -59,6 +58,104 @@ aside{
     text-align: center;
     position: relative;
     top: 190px;
-    
 }
+
+.form-side{
+    height: 100vh;
+    display: flex;
+}
+
+.top-area{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9fa;
+}
+
+fieldset{
+    height: 30%;
+    background-color:white;
+    box-shadow: 5px 10px 10px #8888882a;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f9f9fa;
+}
+
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+button{
+    height: 80px;
+    width: 360px;   
+    background-color: #5e87a1; 
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 10px #8888882a;
+    margin: 0px 0px 50px 40px;
+    font-size: 28px;
+    font-family:  Helvetica, sans-serif;
+    color: rgb(232, 230, 230);
+}
+
+/* Text Selectors  */
+
+section>p+span , section>p {
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    margin: 0px 40px 40px 40px;
+    font-weight: 600;
+}
+
+.lower-section>span{
+    font-size: 23px;
+    font-family: Helvetica, sans-serif;
+    margin: 0px 40px 40px 40px;
+    font-weight: 200;
+}
+
+/* form styling  */
+
+fieldset{
+    border: 0px;
+    display: flex;
+    height: 40%;
+    background-color:white;
+    box-shadow: 5px 10px 10px #8888882a;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+
+    border-radius: 8px; 
+}
+
+legend{
+    font-size: 30px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 20px 50px;
+}
+label{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
 
