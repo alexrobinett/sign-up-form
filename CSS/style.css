@@ -95,9 +95,10 @@ form{
 button{
     height: 80px;
     width: 360px;   
-    background-color: #5e87a1; 
+    background-color: #446c85; 
     border-radius: 20px;
-    box-shadow: 5px 10px 10px 10px #8888882a;
+    border: none;
+    box-shadow: 5px 5px 5px 5px #8888882a;
     margin: 0px 0px 50px 40px;
     font-size: 28px;
     font-family:  Helvetica, sans-serif;
@@ -133,8 +134,9 @@ fieldset{
 input{
     width: 350px;
     height: 40px;
-
+    font-size: 18px;
     border-radius: 8px; 
+    border: 2px solid #E5E7EB;
 }
 
 legend{
@@ -142,6 +144,7 @@ legend{
     position: relative;
     top: 25px;
     left: 50px;
+    font-family: Helvetica, sans-serif;
 }
 
 .input-container{
@@ -155,7 +158,25 @@ label{
     font-size: 20px;
     font-family: Helvetica, sans-serif;
     text-transform: uppercase;
+    color: rgb(51, 51, 51);
 }
 
 
+input:focus{
+    box-shadow: 5px 10px 10px #8888882a;
+    border: rgb(170, 170, 171) solid 2px;
+}
 
+
+div>input+span{
+    color: red;
+}
+
+
+.valid{
+    border: solid rgb(59, 153, 59) 2px;
+}
+
+.error{
+    border: solid red 2px;
+}
