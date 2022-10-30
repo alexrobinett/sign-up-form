@@ -16,6 +16,7 @@ function checkPassowrd(pwValue){
       document.getElementById("user_password").classList.remove("error");
       document.getElementById("user_password_confirm").classList.add("valid");
       document.getElementById("user_password_confirm").classList.remove("error");
+      document.getElementById("psw-message").remove()
     }
 
 }

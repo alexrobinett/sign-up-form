@@ -12,7 +12,16 @@
 body {
     display: flex;
     margin: 0;
-    
+}
+
+a{
+    color: white;
+}
+
+.login{
+    color: #446c85;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 aside{
@@ -69,7 +78,7 @@ aside{
     height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #f9f9fa;
 }
 
@@ -94,7 +103,7 @@ form{
 
 button{
     height: 80px;
-    width: 360px;   
+    width: 340px;   
     background-color: #446c85; 
     border-radius: 20px;
     border: none;
@@ -140,9 +149,10 @@ input{
 }
 
 legend{
-    font-size: 30px;
+    font-size: 36px;
+    margin: 20px 0px 0px 0px;
     position: relative;
-    top: 25px;
+    top: 30px;
     left: 50px;
     font-family: Helvetica, sans-serif;
 }
@@ -163,7 +173,7 @@ label{
 
 
 input:focus{
-    box-shadow: 5px 10px 10px #8888882a;
+    box-shadow: 5px 5px 5px #8888882a;
     border: rgb(170, 170, 171) solid 2px;
 }
 
@@ -178,5 +188,9 @@ div>input+span{
 }
 
 .error{
+    border: solid red 2px;
+}
+
+input:invalid{
     border: solid red 2px;
 }
